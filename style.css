@@ -1,0 +1,244 @@
+
+.body {
+
+}
+
+/*navigavny panel*/
+.logo {
+    height: 35px;
+}
+
+.login {
+    overflow: hidden;
+    right: 10px;
+    margin-left: auto;
+
+
+}
+.nav-item a:hover {
+    color: indianred;
+
+}
+.navbar-brand{
+    font-size: smaller;
+}
+.navbar {
+    position: sticky;
+}
+
+/* hl stranka*/
+.carousel .carousel-item {
+    height: 500px;
+}
+
+.carousel-item img {
+
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+
+
+}
+
+
+.obsah_text {
+    padding: 5%;
+}
+.zoznamWomac {
+    margin-left: 8%;
+}
+
+p {
+    margin-left: 2rem;
+}
+
+.hlavickaBold {
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+.linkText {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.linkText:hover {
+    text-decoration: underline;
+}
+/* o nas*/
+.poznamkaParagraf {
+    font-size: small;
+    color: rgb(128, 128, 128);
+    font-weight: lighter;
+    margin-bottom: 2%;
+}
+
+.accordion-button {
+    font-weight: bold;
+
+}
+
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 8%;
+    align-items: center;
+
+
+}
+
+.mapaOdkaz {
+    height: 80vh;
+    width: 80vh;
+    background-color: black;
+    padding: 0.5%;
+    margin-bottom: 3%;
+
+
+}
+.kontakt > h6{
+
+    margin-top: 20%;
+}
+.kontakt {
+    padding: 3%;
+}
+
+@media (max-width : 650px) {
+
+    .mapaOdkaz {
+        height: 50vh;
+        width: 50vh;
+        background-color: black;
+        padding: 0.5%;
+        margin-bottom: 3%;
+
+    }
+}
+
+@media (max-width : 370px) {
+
+    .mapaOdkaz {
+        height: 25vh;
+        width: 25vh;
+        background-color: black;
+        padding: 0.5%;
+        margin-bottom: 3%;
+
+    }
+}
+
+@media (min-width : 768px) {
+
+    .login {
+        position: absolute;
+        overflow: hidden;
+        right: 10px;
+        margin-left: auto;
+
+    }
+}
+
+
+.containerWomac {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 3%;
+    column-gap: 30px;
+
+
+}
+
+.sideBarWomac {
+    width: auto;
+    height: 80vh;
+    border: black solid 2px;
+    overflow-y: scroll;
+    margin-bottom: 4%;
+}
+
+@media (max-width : 1030px) {
+    .sideBarWomac {
+        height: 50vh;
+    }
+}
+.womacVpisovanie {
+    width: auto;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 40%;
+    /*margin-right: auto;*/
+    /*margin-left: auto;*/
+}
+@media (max-width : 600px) {
+    .womacVpisovanie {
+        max-width: 80%;
+    }
+}
+.menuVpisovanie {
+    width: auto;
+    display: flex;
+    /*background-color: yellow;*/
+    flex-wrap: wrap;
+
+    padding: 0% 5% 5%;
+    margin-bottom: 5%;
+
+}
+
+.womacMenuButton {
+    border: solid black 2px;
+    text-underline: none;
+    color: black;
+    padding: 3%;
+    margin-bottom: 2%;
+    margin-right: 2%;
+    background-color: lightgray;
+}
+
+.womacMenuButton:hover {
+    background-color: indianred;
+    transition: background-color 0.6s ease;
+}
+
+.womacInput {
+    width: 50px;
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 5px 20px;
+}
+
+.vpisovanieDat {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /*width: 100%;*/
+    /*height: auto;*/
+    /*background-color: indianred;*/
+    padding: 2%;
+}
+
+.nazovWomacInput {
+    display: block;
+    text-align: center;
+    padding: 5px;
+    border: 2px solid black;
+    border-bottom: none;
+
+
+}
+.inputAndLabel {
+    display: flex;
+    flex-direction: column;
+    background-color: lightgray;
+    margin-bottom: 3%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
