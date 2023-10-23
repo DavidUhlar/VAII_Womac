@@ -66,7 +66,8 @@
     width: 50px;
     border: 2px solid black;
     border-radius: 4px;
-    padding: 5px 20px;
+    padding: 5px 13px;
+    text-align: center;
 }
 
 .vpisovanieDat {
