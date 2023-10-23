@@ -23,15 +23,14 @@
     position: sticky;
 }
 
-/* hl stranka*/
-.carousel .carousel-item {
-    height: 500px;
-}
 
-.carousel-item img {
+@media (min-width : 768px) {
 
-    object-fit: cover;
-    object-position: center;
-    height: 100%;
+    .login {
+        position: absolute;
+        overflow: hidden;
+        right: 10px;
+        margin-left: auto;
 
+    }
 }
